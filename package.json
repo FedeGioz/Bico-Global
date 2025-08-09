@@ -4,6 +4,9 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "build": "node build/build.js",
+    "start": "npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +19,22 @@
     "echarts": "^5.3.3",
     "tki-qrcode": "^0.1.6",
     "uview-ui": "^1.8.4",
-    "vue-i18n": "^8.15.0"
+    "vue-i18n": "^8.15.0",
+    "babel-polyfill": "^6.26.0",
+    "es6-promise": "^4.2.8",
+    "url-search-params-polyfill": "^8.1.1",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.4",
+    "vue-country-intl": "^1.0.9",
+    "vue-bus": "^1.2.1",
+    "element-ui": "^2.15.14",
+    "less": "^4.2.0",
+    "moment-timezone": "^0.5.43",
+    "jwchat": "^1.2.3",
+    "axios": "^1.6.8",
+    "qs": "^6.11.2",
+    "crypto-js": "^4.1.1",
+    "qrcodejs2": "^0.0.2"
   },
   "devDependencies": {
     "babel-loader": "^7.1.5",
